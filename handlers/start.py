@@ -42,17 +42,32 @@ async def start_(client: Client, message: Message):
 ⋆  **اضغط علي هذا الامر /help لعرض الاوامر**
 </b>""",
         reply_markup=InlineKeyboardMarkup(
+
             [ 
+
                 [
+
                     InlineKeyboardButton(
+
                         "اضف البوت لمجموعتك", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
-                ],
+
+                ],[
+
+                    InlineKeyboardButton(
+
+                        "جروب الدعم", url=f"https://t.me/{GROUP_SUPPORT}"
+
                     ),
+
                     InlineKeyboardButton(
+
                         "قناه السورس", url=f"https://t.me/{UPDATES_CHANNEL}")               
+
                  ],[
+
                     InlineKeyboardButton(
-                        "11:11", url="https://t.me/leo19l"
+
+                        "00:00", url="https://t.me/leo19l"
                     )
                 ]
             ]
