@@ -192,24 +192,31 @@ async def help_(client: Client, message: Message):
 - .no 
 - رفض إرسال رسالة إلى المساعد في الخاص.
 </b>""",
-        
+        reply_markup=InlineKeyboardMarkup(
+
+            [
+
+                [
+
+                    InlineKeyboardButton(
+
+                        "جروب الدعم", url=f"https://t.me/{GROUP_SUPPORT}"
+
                     ),
+
                     InlineKeyboardButton(
+
                         "قناة السورس", url=f"https://t.me/{UPDATES_CHANNEL}"
+
                     )
+
                 ],
+
                 [
+
                     InlineKeyboardButton(
-                        "11:11", url=f"https://t.me/leo19l/6"
-                    )
-                       [
-                       InlineKeyboardButton(
-                        "مطور السورس", url=f"https://t.me/{UPDATES_CHANNEL}"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "10:00:", url=f"https://t.me/o_laii/6"
+
+                        "00:00", url=f"https://t.me/leo19l/6"
                     
     
               
